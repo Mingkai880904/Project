@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh_tw">
+<head>
+<meta charset="utf-8">
+<title>Hello</title>
+</head>
+<body>
+<h3>Hello</h3>
+<form enctype="multipart/form-data"  method="post" action="ksu_insert.php">
+姓名:<input type="text" name="name" size="10"/><br/>
+學號:<input type="text" name="id" size="10"/><br/>
+年齡:<input type="text" name="age" size="10"/><br/>
+
+<input type="submit" name="sub" value="新建"/>
+
+</form>
+<form enctype="multipart/form-data"  method="post" action="ksu_delete.php">
+姓名:<input type="text" name="name" size="10"/><br/>
+
+<input type="submit" name="sub" value="刪除"/>
+
+</form>
+</form>
+<form enctype="multipart/form-data"  method="post" action="ksu_update.php">
+想要修改的姓名:<input type="text" name="name" size="10"/><br/>
+想要修改的年齡:<input type="text" name="age" size="10"/><br/>
+原先的學號:<input type="text" name="number" size="10"/><br/>
+<input type="submit" name="sub" value="修改"/>
+
+</form>
+<form enctype="multipart/form-data"  method="post" action="ksu_find.php">
+學生姓名:<input type="text" name="name" size="10"/><br/>
+<input type="submit" name="sub" value="查詢"/>
+
+</form>
+</form>
+<form enctype="multipart/form-data"  method="post" action="ksu_students.php">
+<input type="submit" name="sub" value="查看所有資料"/>
+
+</form>
+
+</body>
+</html>
